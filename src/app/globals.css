@@ -11,3 +11,8 @@ body {
   background-color: #111;
   color: #bbb;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
