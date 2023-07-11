@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from "./page.module.css"
 import Image from 'next/image'
+import Button from '@/components/button/Button'
+
 
 const About = () => {
   return (
@@ -47,6 +49,7 @@ const About = () => {
             <br />
             <br /> - Mobile Apps
           </p>
+          <Button text="contact" url="/contact" />
         </div>
       </div>
     </div>
