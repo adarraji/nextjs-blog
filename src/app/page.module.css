@@ -20,11 +20,11 @@
 
 @keyframes move {
     from {
-        transform: translateY(-15px);
+        transform: translateY(-10px);
     }
 
     to {
-        transform: translateY(0px) scale(1.03);
+        transform: translateY(10px);
     }
 }
 
