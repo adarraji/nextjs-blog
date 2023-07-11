@@ -14,7 +14,7 @@
 .img {
     width: 100%;
     height: 500px;
-    object-fit: cover;
+    object-fit: contain;
     animation: move 3s infinite ease alternate;
 }
 
