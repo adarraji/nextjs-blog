@@ -35,6 +35,9 @@
     background: url("/apps.jpg");
 }
 
+.item:hover .title {
+    color: #53c28b
+}
 
 .title {
     position: absolute;
