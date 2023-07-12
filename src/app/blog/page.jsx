@@ -11,8 +11,8 @@ const page = () => {
                     <Image src="https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg" alt="" width={400} height={250} className={styles.image} />
                 </div>
                 <div className={styles.content}>
-                    <h1 className={styles.title}></h1>
-                    <p className={styles.desc}></p>
+                    <h1 className={styles.title}>Test</h1>
+                    <p className={styles.desc}>Desc</p>
                 </div>
             </Link>
             <Link href="/blog/testId" className={styles.container}>
@@ -20,8 +20,8 @@ const page = () => {
                     <Image src="https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg" alt="" width={400} height={250} className={styles.image} />
                 </div>
                 <div className={styles.content}>
-                    <h1 className={styles.title}></h1>
-                    <p className={styles.desc}></p>
+                    <h1 className={styles.title}>Test</h1>
+                    <p className={styles.desc}>Desc</p>
                 </div>
             </Link>
             <Link href="/blog/testId" className={styles.container}>
@@ -29,8 +29,8 @@ const page = () => {
                     <Image src="https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg" alt="" width={400} height={250} className={styles.image} />
                 </div>
                 <div className={styles.content}>
-                    <h1 className={styles.title}></h1>
-                    <p className={styles.desc}></p>
+                    <h1 className={styles.title}>Test</h1>
+                    <p className={styles.desc}>Desc</p>
                 </div>
             </Link>
         </div>
