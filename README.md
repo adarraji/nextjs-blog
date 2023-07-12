@@ -47,4 +47,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### MongoDB URL
 
-In the `index.js` replace `process.env.MONGO` with your MongoDB url 
+In `src/utils/db.js` replace `process.env.MONGO` with your MongoDB url 
