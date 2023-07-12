@@ -3,7 +3,7 @@ import styles from "./page.module.css"
 import Link from 'next/link'
 import Image from 'next/image'
 
-const page = () => {
+const Blog = () => {
     return (
         <div className={styles.mainContainer}>
             <Link href="/blog/testId" className={styles.container}>
@@ -37,4 +37,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Blog
