@@ -80,7 +80,7 @@ for more information:
 Used to encrypt the NextAuth.js JWT, and to hash email verification tokens. This is the default value for the secret option in NextAuth and Middleware.
 
 For more information
-* [Auth.js OAuth authentication](https://authjs.dev/getting-started/oauth-tutorial#1-configuring-authjs)
+* [Auth.js OAuth authentication - Configuring Auth.js](https://authjs.dev/getting-started/oauth-tutorial#1-configuring-authjs)
 * [NEXTAUTH_SECRET](https://next-auth.js.org/configuration/options#nextauth_secret)
 
 `NEXTAUTH_SECRET="This is an example"`
@@ -92,4 +92,4 @@ When deploying your site, you need to set the NEXTAUTH_URL environment variable 
 `NEXTAUTH_URL=https://example.com`
 
 For more information
-* [Auth.js OAuth authentication](https://authjs.dev/getting-started/oauth-tutorial#4-deploying-to-production)
+* [Auth.js OAuth authentication - Deploying to production](https://authjs.dev/getting-started/oauth-tutorial#4-deploying-to-production)
