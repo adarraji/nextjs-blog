@@ -21,30 +21,18 @@ const BlogPost = async ({ params }) => {
             <div className={styles.top}>
                 <div className={styles.info}>
                     <h1 className={styles.title}>{data.title}</h1>
-                    <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos delectus ipsam quam nisi, dolorum velit quod tempore debitis fugit obcaecati ratione expedita error optio ut magnam odit nam sapiente impedit.</p>
+                    <p className={styles.desc}>{data.desc}</p>
                     <div className={styles.author}>
                         <Image className={styles.avatar} height={40} width={40} src="https://images.pexels.com/photos/16770473/pexels-photo-16770473/free-photo-of-hand-holding-clove.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=loads" alt="" />
-                        <span className={styles.username}>John Doe</span>
+                        <span className={styles.username}>{data.username}</span>
                     </div>
                 </div>
                 <div className={styles.imageContainer}>
-                    <Image className={styles.image} fill={true} src="https://images.pexels.com/photos/13881115/pexels-photo-13881115.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" alt="" />
+                    <Image className={styles.image} fill={true} src={data.img} alt="" />
                 </div>
             </div>
             <div className={styles.content}>
-                <p className={styles.text}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed reiciendis tenetur, inventore totam ducimus nemo architecto in id incidunt accusamus recusandae ad explicabo blanditiis facere porro veniam assumenda! Et, minus.
-                    <br />
-                    <br />
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed reiciendis tenetur, inventore totam ducimus nemo architecto in id incidunt accusamus recusandae ad explicabo blanditiis facere porro veniam assumenda! Et, minus.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed reiciendis tenetur, inventore totam ducimus nemo architecto in id incidunt accusamus recusandae ad explicabo blanditiis facere porro veniam assumenda! Et, minus.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed reiciendis tenetur, inventore totam ducimus nemo architecto in id incidunt accusamus recusandae ad explicabo blanditiis facere porro veniam assumenda! Et, minus.
-                    <br />
-                    <br />
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed reiciendis tenetur, inventore totam ducimus nemo architecto in id incidunt accusamus recusandae ad explicabo blanditiis facere porro veniam assumenda! Et, minus.
-                    <br />
-                    <br />
-                </p>
+                <p className={styles.text}>{data.content}</p>
             </div>
         </div>
     )
