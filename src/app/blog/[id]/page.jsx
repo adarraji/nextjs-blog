@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation'
 
 
 async function getData(id) {
-    const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`, { cache: 'no-store' })
+    const res = await fetch(`${process.env.BASE_URL}/posts/${id}`, { cache: 'no-store' })
 
     if (!res.ok) {
         return notFound()
