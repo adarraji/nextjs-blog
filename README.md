@@ -59,3 +59,8 @@ Replace `process.env.BASE_URL` with the api base url in:
 
 
 Example: `http://localhost:8800/api`
+
+### Google Cloud Auth
+
+In `src\app\api\auth\register\route.js` Add the Client ID and Client secret from Google cloud Credentials in APIs & Services 
+
