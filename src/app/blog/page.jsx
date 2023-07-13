@@ -3,6 +3,11 @@ import styles from "./page.module.css"
 import Link from 'next/link'
 import Image from 'next/image'
 
+export const metadata = {
+    title: 'AD DEV Blog',
+    description: 'This is Blog page',
+}
+
 
 async function getData() {
     const res = await fetch(`${process.env.BASE_URL}/posts`, { cache: 'no-store' })
