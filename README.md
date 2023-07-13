@@ -66,8 +66,10 @@ In `src\app\api\auth\register\route.js` Add the Client ID and Client secret from
 
 for more information:
 
+* [Next Auth.js Google Provider](https://next-auth.js.org/providers/google)
 * [Google Cloud APIs Credentials](https://console.developers.google.com/apis/credentials)
 * [Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2)
+
 
 
 
