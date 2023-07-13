@@ -39,6 +39,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Built With
 
+* HTML
+* CSS
+* Javascript
 * Next.js
 * MongoDB / Mongoose
 * NextAuth.js
@@ -72,5 +75,12 @@ for more information:
 
 
 
+### NEXTAUTH_SECRET
+
+Used to encrypt the NextAuth.js JWT, and to hash email verification tokens. This is the default value for the secret option in NextAuth and Middleware.
+
+For more information
+
+* [NEXTAUTH_SECRET](https://next-auth.js.org/configuration/options#nextauth_secret)
 
 
