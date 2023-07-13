@@ -40,7 +40,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Built With
 
 * Next.js
-* MongoDB
+* MongoDB / Mongoose
+* Auth.js
 
 
 ## Environmental Variables
