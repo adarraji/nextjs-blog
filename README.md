@@ -48,3 +48,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ### MongoDB URL
 
 In `src/utils/db.js` replace `process.env.MONGO` with your MongoDB url 
+
+### BASE URL
+Replace `process.env.BASE_URL` with the api base url in:
+
+* `src/app/blog/page.jsx`
+
+
+
+Example: `http://localhost:8800/api`
