@@ -80,7 +80,7 @@ for more information:
 Used to encrypt the NextAuth.js JWT, and to hash email verification tokens. This is the default value for the secret option in NextAuth and Middleware.
 
 For more information
-* [Auth.js OAuth authentication](https://authjs.dev/getting-started/oauth-tutorial)
+* [Auth.js OAuth authentication](https://authjs.dev/getting-started/oauth-tutorial#4-deploying-to-production)
 * [NEXTAUTH_SECRET](https://next-auth.js.org/configuration/options#nextauth_secret)
 
 `NEXTAUTH_SECRET="This is an example"`
