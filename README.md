@@ -83,4 +83,13 @@ For more information
 * [Auth.js OAuth authentication](https://authjs.dev/getting-started/oauth-tutorial)
 * [NEXTAUTH_SECRET](https://next-auth.js.org/configuration/options#nextauth_secret)
 
+`NEXTAUTH_SECRET="This is an example"`
 
+###  NEXTAUTH_URL 
+
+When deploying your site, you need to set the NEXTAUTH_URL environment variable to the canonical URL of your website:
+
+`NEXTAUTH_URL=https://example.com`
+
+For more information
+* [Auth.js OAuth authentication](https://authjs.dev/getting-started/oauth-tutorial)
