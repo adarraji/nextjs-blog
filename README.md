@@ -64,3 +64,11 @@ Example: `http://localhost:8800/api`
 
 In `src\app\api\auth\register\route.js` Add the Client ID and Client secret from Google cloud Credentials in APIs & Services 
 
+for more information:
+
+* [Google Cloud APIs Credentials](https://console.developers.google.com/apis/credentials)
+* [Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2)
+
+
+
+
