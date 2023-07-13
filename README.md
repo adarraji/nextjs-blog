@@ -92,4 +92,4 @@ When deploying your site, you need to set the NEXTAUTH_URL environment variable 
 `NEXTAUTH_URL=https://example.com`
 
 For more information
-* [Auth.js OAuth authentication](https://authjs.dev/getting-started/oauth-tutorial)
+* [Auth.js OAuth authentication](https://authjs.dev/getting-started/oauth-tutorial#4-deploying-to-production)
