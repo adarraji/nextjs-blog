@@ -46,6 +46,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 * MongoDB / Mongoose
 * NextAuth.js
 * Google Cloud as auth provider
+* bcryptjs
 
 
 ## Environmental Variables
