@@ -28,10 +28,14 @@ const Dashboard = () => {
     // }, [])
 
     const fetcher = (...args) => fetch(...args).then(res => res.json())
-    const { data, error, isLoading } = useSWR("https://jsonplaceholder.typicode.com/posts", fetcher)
+
 
     const { data: session, status } = useSession()
     const router = useRouter()
+
+    const { data, error, isLoading } = useSWR(`/api/posts?username=${session?.user.name}`, fetcher)
+
+    console.log(data)
 
     if (status === "loding") {
         return <p>Loading...</p>
