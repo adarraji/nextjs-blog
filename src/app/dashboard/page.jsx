@@ -46,8 +46,6 @@ const Dashboard = () => {
             <div className={styles.container}>Dashboard</div>
         )
     }
-
-
 }
 
 export default Dashboard
