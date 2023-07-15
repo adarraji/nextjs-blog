@@ -3,6 +3,7 @@ import connect from "@/utils/db"
 import NextAuth from "next-auth"
 import GoogleProvider from "next-auth/providers/google"
 import bcrypt from "bcryptjs";
+import CredentialsProvider from "next-auth/providers/credentials";
 
 const handler = NextAuth({
     providers: [
@@ -12,32 +13,39 @@ const handler = NextAuth({
         }),
         CredentialsProvider({
             id: "credentials",
-            name: "credentials",
+            name: "Credentials",
             async authorize(credentials) {
-
-                await connect()
+                //Check if the user exists.
+                await connect();
 
                 try {
-                    const user = User.findOne({ email: credentials.emaail })
+                    const user = await User.findOne({
+                        email: credentials.email,
+                    });
+
                     if (user) {
-                        //check password
-                        const isPasswordCorrect = bcrypt.compare(credentials.password, user.password)
+                        const isPasswordCorrect = await bcrypt.compare(
+                            credentials.password,
+                            user.password
+                        );
+
                         if (isPasswordCorrect) {
-                            return user
+                            return user;
                         } else {
-                            throw new Error("Wrong Credentials")
+                            throw new Error("Wrong Credentials!");
                         }
                     } else {
-                        throw new Error("User not found")
+                        throw new Error("User not found!");
                     }
-
                 } catch (err) {
-                    throw new Error(err)
+                    throw new Error(err);
                 }
-
-            }
-        })
+            },
+        }),
     ],
+    pages: {
+        error: "/dashboard/login"
+    }
 })
 
 export { handler as GET, handler as POST }
