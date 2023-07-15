@@ -1,10 +1,22 @@
 "use client"
-import { signIn } from 'next-auth/react'
+import { signIn, useSession } from 'next-auth/react'
 import React, { useState } from 'react'
 import styles from "./page.module.css";
+import { useRouter } from 'next/navigation';
 
 const Login = () => {
     const [error, setError] = useState(null);
+
+    const { data: session, status } = useSession()
+    const router = useRouter()
+
+    if (status === "loding") {
+        return <p>Loading...</p>
+    }
+
+    if (status === "authenticated") {
+        router?.push("/dashboard")
+    }
 
     const handleSubmit = (e) => {
         e.preventDefault();
