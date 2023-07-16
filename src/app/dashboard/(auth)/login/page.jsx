@@ -3,6 +3,7 @@ import { signIn, useSession } from 'next-auth/react'
 import React, { useState } from 'react'
 import styles from "./page.module.css";
 import { useRouter } from 'next/navigation';
+import Link from "next/link";
 
 const Login = () => {
     const [error, setError] = useState(null);
@@ -47,7 +48,11 @@ const Login = () => {
                 <button className={styles.button}>Login</button>
                 {error && "Something went wrong!"}
             </form>
-            <button onClick={() => signIn("google")}>Login with Google</button>
+            <button className={styles.button + " " + styles.google} onClick={() => signIn("google")}>Login with Google</button>
+            <span className={styles.or}>- OR -</span>
+            <Link className={styles.link} href="/dashboard/register">
+                Create new account
+            </Link>
         </div>
 
 
