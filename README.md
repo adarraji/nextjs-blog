@@ -75,6 +75,7 @@ for more information:
 * [Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2)
 
 
+Also you need to add your server URI in Authorized JavaScript origins (for example http://localhost:8800) in Google cloud web application  
 
 ### NEXTAUTH_SECRET
 
