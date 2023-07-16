@@ -70,6 +70,17 @@ const Dashboard = () => {
 
     }
 
+    const handleDelete = async (id) => {
+        try {
+            await fetch(`/api/posts/${id}`, {
+                method: "DELETE",
+            });
+            mutate();
+        } catch (err) {
+            console.log(err);
+        }
+    };
+
     if (status === "authenticated") {
         return (
             <div className={styles.container}>
@@ -84,7 +95,7 @@ const Dashboard = () => {
                                 <h2 className={styles.postTitle}>{post.title}</h2>
                                 <span
                                     className={styles.delete}
-
+                                    onClick={() => handleDelete(post._id)}
                                 >
                                     X
                                 </span>
