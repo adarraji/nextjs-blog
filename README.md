@@ -76,10 +76,12 @@ For more information
 * [Auth.js OAuth authentication - Deploying to production](https://authjs.dev/getting-started/oauth-tutorial#4-deploying-to-production)
 
 
+
 ## Deployment
 
 Deployed on [Netlify](https://netlify.com)
 You can see the website [here](https://nextjsblog2.netlify.app)
+
 
 
 ## Authors
@@ -87,8 +89,11 @@ You can see the website [here](https://nextjsblog2.netlify.app)
 - **Ali Darraji** - [https://github.com/adarraji](https://github.com/adarraji)
 
 
+
 ## Deploy status
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8d760479-08e8-4e3c-9463-0d5129f2f718/deploy-status)](https://app.netlify.com/sites/react-booking-12/deploys)
+
+
 
 ## Screenshots
 
