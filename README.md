@@ -4,6 +4,8 @@
 
  Next.js Fullstack Application. It inlcudes home, postfolio, blog, about, contact and dashboard pages. These pages were created using Next.js app router. This app uses MongoDB  database. There is a dark mode toggle button. Context API is used for dark mode and light mode. NextAuth.js is used for Authintication. Users can register, create a new account, and login with user credentials or login using Google account. After login users will see the protected dashbaord that shows the user's posts and will be able to add new posts. Users can delete their own posts.
 
+ You can see the website [here](https://nextjsblog2.netlify.app)
+
 
  To run the application
 
@@ -39,7 +41,6 @@ Replace `process.env.BASE_URL` with the api base url in:
 * `src/app/blog/page.jsx`
 
 
-
 Example: `http://localhost:8800/api`
 
 ### Google Cloud Auth
@@ -73,6 +74,25 @@ When deploying your site, you need to set the NEXTAUTH_URL environment variable 
 
 For more information
 * [Auth.js OAuth authentication - Deploying to production](https://authjs.dev/getting-started/oauth-tutorial#4-deploying-to-production)
+
+
+## Deployment
+
+Deployed on [Netlify](https://netlify.com)
+You can see the website [here](https://nextjsblog2.netlify.app)
+
+
+## Authors
+
+- **Ali Darraji** - [https://github.com/adarraji](https://github.com/adarraji)
+
+
+## Deploy status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8d760479-08e8-4e3c-9463-0d5129f2f718/deploy-status)](https://app.netlify.com/sites/react-booking-12/deploys)
+
+## Screenshots
+
+
 
 ========================================================================
 ========================================================================
