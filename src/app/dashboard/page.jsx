@@ -34,7 +34,7 @@ const Dashboard = () => {
     const { data: session, status } = useSession()
     const router = useRouter()
 
-    const { data, error, isLoading } = useSWR(`/api/posts?username=${session?.user.name}`, fetcher)
+    const { data, mutate, error, isLoading } = useSWR(`/api/posts?username=${session?.user.name}`, fetcher)
 
     console.log(data)
 
@@ -67,7 +67,8 @@ const Dashboard = () => {
         } catch (err) {
             console.log(err);
         }
-
+        e.target.reset()
+        mutate()
     }
 
     const handleDelete = async (id) => {
