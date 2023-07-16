@@ -100,7 +100,7 @@ You can see the website [here](https://nextjsblog2.netlify.app)
 <br />
 
 ## Deploy status
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8d760479-08e8-4e3c-9463-0d5129f2f718/deploy-status)](https://app.netlify.com/sites/react-booking-12/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a338ecac-c5a1-4ba2-bf7d-186ab51bbc49/deploy-status)](https://app.netlify.com/sites/nextjsblog2/deploys)
 
 <br />
 
