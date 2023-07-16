@@ -28,12 +28,15 @@ Open [http://localhost:3000](http://localhost:3000) with your browser
 * bcryptjs
 * Context API
 
+<br />
 
 ## Environmental Variables
 
 ### MongoDB URL
 
 In `src/utils/db.js` replace `process.env.MONGO` with your MongoDB url 
+
+<br />
 
 ### BASE URL
 Replace `process.env.BASE_URL` with the api base url in:
@@ -42,6 +45,8 @@ Replace `process.env.BASE_URL` with the api base url in:
 
 
 Example: `http://localhost:8800/api`
+
+<br />
 
 ### Google Cloud Auth
 
@@ -56,6 +61,8 @@ for more information:
 
 Also you need to add your server URI in Authorized JavaScript origins (for example http://localhost:8800) in Google cloud web application  
 
+<br />
+
 ### NEXTAUTH_SECRET
 
 Used to encrypt the NextAuth.js JWT, and to hash email verification tokens. This is the default value for the secret option in NextAuth and Middleware.
@@ -66,6 +73,8 @@ For more information
 
 `NEXTAUTH_SECRET="This is an example"`
 
+<br />
+
 ###  NEXTAUTH_URL 
 
 When deploying your site, you need to set the NEXTAUTH_URL environment variable to the canonical URL of your website:
@@ -75,25 +84,25 @@ When deploying your site, you need to set the NEXTAUTH_URL environment variable 
 For more information
 * [Auth.js OAuth authentication - Deploying to production](https://authjs.dev/getting-started/oauth-tutorial#4-deploying-to-production)
 
-
+<br />
 
 ## Deployment
 
 Deployed on [Netlify](https://netlify.com)
 You can see the website [here](https://nextjsblog2.netlify.app)
 
-
+<br />
 
 ## Authors
 
 - **Ali Darraji** - [https://github.com/adarraji](https://github.com/adarraji)
 
-
+<br />
 
 ## Deploy status
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8d760479-08e8-4e3c-9463-0d5129f2f718/deploy-status)](https://app.netlify.com/sites/react-booking-12/deploys)
 
-
+<br />
 
 ## Screenshots
 
