@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react"
 import styles from "./page.module.css"
-import Image from 'next/image'
-import Button from '@/components/button/Button'
+import Image from "next/image"
+import Button from "@/components/button/Button"
 
 export const metadata = {
-    title: 'AD DEV Contact',
-    description: 'This is Contact page',
+    title: "AD DEV Contact",
+    description: "This is Contact page",
 }
 
 const Contact = () => {
