@@ -111,27 +111,27 @@ You can see the website [here](https://nextjsblog2.netlify.app)
 <br />
 <br />
 
-![Image 2](./images/image-02.png)
+![Image 2](public/images/image-02.png)
 <br />
 <br />
 
-![Image 3](./images/image-03.png)
+![Image 3](public/images/image-03.png)
 <br />
 <br />
 
-![Image 4](./images/image-04.png)
+![Image 4](public/images/image-04.png)
 <br />
 <br />
 
-![Image 4](./images/image-05.png)
+![Image 5](public/images/image-05.png)
 <br />
 <br />
 
-![Image 4](./images/image-06.png)
+![Image 6](public/images/image-06.png)
 <br />
 <br />
 
-![Image 4](./images/image-07.png)
+![Image 7](public/images/image-07.png)
 <br />
 <br />
 
