@@ -107,7 +107,7 @@ You can see the website [here](https://nextjsblog2.netlify.app)
 ## Screenshots
 <br />
 
-![Image 1](./images/image-01.png)
+![Image 1](public/images/image-01.png)
 <br />
 <br />
 
