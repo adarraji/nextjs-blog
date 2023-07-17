@@ -105,3 +105,36 @@ You can see the website [here](https://nextjsblog2.netlify.app)
 <br />
 
 ## Screenshots
+<br />
+
+![Image 1](./images/image-01.png)
+<br />
+<br />
+
+![Image 2](./images/image-02.png)
+<br />
+<br />
+
+![Image 3](./images/image-03.png)
+<br />
+<br />
+
+![Image 4](./images/image-04.png)
+<br />
+<br />
+
+![Image 4](./images/image-05.png)
+<br />
+<br />
+
+![Image 4](./images/image-06.png)
+<br />
+<br />
+
+![Image 4](./images/image-07.png)
+<br />
+<br />
+
+<br />
+<br />
+<br />
