@@ -2,7 +2,7 @@
 
 # Next.js Fullstack Application
 
- Next.js Fullstack Application. It inlcudes home, postfolio, blog, about, contact and dashboard pages. These pages were created using Next.js app router. This app uses MongoDB  database. There is a dark mode toggle button. Context API is used for dark mode and light mode. NextAuth.js is used for Authintication. Users can register, create a new account, and login with user credentials or login using Google account. After login users will see the protected dashbaord that shows the user's posts and will be able to add new posts. Users can delete their own posts.
+ Next.js Fullstack Application. It inlcudes home, portfolio, blog, about, contact and dashboard pages. These pages were created using Next.js app router. This app uses MongoDB  database. There is a dark mode toggle button. Context API is used for dark mode and light mode. NextAuth.js is used for Authintication. Users can register, create a new account, and login with user credentials or login using Google account. After login users will see the protected dashbaord that shows the user's posts and will be able to add new posts. Users can delete their own posts.
 
  You can see the website [here](https://nextjsblog2.netlify.app)
 
